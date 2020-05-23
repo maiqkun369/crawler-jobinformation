@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    password: zxc88032003
+    username: root
+    url: jdbc:mysql://182.92.202.60/crawler?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
